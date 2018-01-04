@@ -1,0 +1,53 @@
+.side-nav-li{
+    width: 100%;
+    background-color: lightgrey;
+    
+}
+.side-nav{
+    
+    height: 100%;
+    width:150px;
+    background-color: darkgray;
+    box-sizing: border-box;
+    
+}
+.side-nav ul li{
+    
+    width: 100%;
+    padding: 10px 0;
+    
+}
+.side-nav .material-icons{
+    position: relative;
+    top: 7px;
+    
+}
+.user-nav{
+    width: 100%;
+    background-color: blue;
+
+}
+.user-nav-li{
+    
+}
+.user-icon{
+    width: 30px;
+    padding: 1px;
+    background-color: yellow;
+    position: relative;
+ 
+}
+
+.user-icon .material-icons{
+   
+
+}
+.user-icon span{
+    top: 0;
+    left: 1rem;
+    position: absolute;
+    font-size:10px;
+    background-color:red;
+    padding:3px;
+    border-radius: 100%;
+}
