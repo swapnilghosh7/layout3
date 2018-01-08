@@ -11,10 +11,10 @@
     <body>
          <header>
     <section class="user-nav">
-        <div class=" wrapper cf">
-            <div class="user-nav-li">
-            <ul class="fr">
-               <li class="fl"><div class="user-icon"><a href="#"><i class="material-icons">mail</i></a><span>1</span></div></li>
+        <div class="wrapper">
+            <div class="user-nav-li cf">
+            <ul class="fr ">
+               <li class="fl cf"><div class="user-icon"><a href="#"><i class="material-icons">mail</i></a><span>1</span></div></li>
                 <li class="fl"><div class="user-icon"><a href="#"><i class="material-icons">mail</i></a><span>1</span></div></li>
                 <li class="fl"><div class="user-icon"><a href="#"><i class="material-icons">mail</i></a><span>1</span></div></li>
                 <li class="fl"><a href="#"><span>John Doe</span><i class="material-icons">arrow_drop_down</i></a></li>
@@ -25,9 +25,10 @@
     </section>
     </header>
         <main class="wrapper cf">
-        <section class="side-nav-li cf">
-            <aside class="side-nav fl">
-                <ul class="cf">
+        <section class="side-nav-li wrapper">
+            
+            <aside class="side-nav cf fl">
+                <ul>
                     <li><div class="cf"><div class="fl"><a href="#"><i class="material-icons icon-font">loyalty</i>&nbsp &nbspComponent</a></div><div class="notification fr">2</div></div></li>
                 
                     
@@ -38,12 +39,14 @@
                     
                     <li><a href="#"><i class="material-icons icon-font">inbox</i>&nbsp &nbspInbox</a></li>
                     
-                    <li><a hrerf="#"><i class="material-icons icon-font">list</i>&nbsp &nbspEmail Template</a></li>
+                    <li><div class="cf"><div class="fl"><a href="#"><i class="material-icons icon-font">list</i>&nbsp &nbspEmail Template</a></div><div class="notification-new fr">New</div></div></li>
                     
                     <li><a href="#"><i class="material-icons icon-font">storage</i>&nbsp &nbspMulti-level menu</a></li>
                     
                 </ul>
+                
             </aside>
+                       
         </section>
             <div class= "main-body fl">
         <section class="home">
@@ -55,17 +58,17 @@
         </section>
         <section class="dashboard">
             <div class="dashboard-balance cf wrapper1">
-            <div class="Dashboard-user fl">
+            <div class="dashboard-user fl">
                 <h3>Dashboard</h3>
                 <span>Welcome back Mr. John Doe</span>
             </div>
             <div class="visit-balance fr">
             <div class="visit fl">
-                <span class="font14">NEW VISITS</span>
+                <span>NEW VISITS</span>
                 <span class="font24">4255</span>
             </div>
             <div class="balance fl">
-                <span class="font14">MY BALANCE</span>
+                <span>MY BALANCE</span>
                 <span class="font24">$32801</span>
             </div>
             </div>
@@ -75,9 +78,9 @@
                 
                 <div class="nav-li-icon wrapper1">
                   <nav>
-                    <ul class="cf">
+                    <ul>
                         <li><a href="#"><i class="material-icons icon-font">inbox</i>&nbsp &nbspInbox</a></li>
-                         <li><a href="#"><i class="material-icons icon-font">inbox</i>&nbsp &nbspInbox</a></li>
+                         <li><a href="#"><i class="material-icons icon-font">inbox</i><span>1</span>Inbox</a></li>
                          <li><a href="#"><i class="material-icons icon-font">inbox</i>&nbsp &nbspInbox</a></li>
                          <li><a href="#"><i class="material-icons icon-font">inbox</i>&nbsp &nbspInbox</a></li>
                          <li><a href="#"><i class="material-icons icon-font">inbox</i>&nbsp &nbspInbox</a></li>
@@ -186,11 +189,11 @@
                              <li class="cf"><span class="list-name fl"><strong>TO DO List</strong></span>
                                  <div class="fr button"><a href="#" class="minimize"><i class="material-icons">expand_more</i></a>
                                 <a href="#" class="close"><i class="material-icons">close</i></a></div></li>
-                            <li><input type="checkbox" name="to-do-list" value="Unit-testing">Unit testing</li>
-                             <li><input type="checkbox" name="to-do-list" value="Bike">Unit testing</li>
-                             <li><input type="checkbox" name="to-do-list" value="Bike">Unit testing</li>
-                             <li><input type="checkbox" name="to-do-list" value="Bike">Unit testing</li>
-                             <li><input type="checkbox" name="to-do-list" value="Bike">Unit testing</li>
+                            <li><input type="checkbox" name="to-do-list" value="Unit-testing">Unit testing<div class="delete-icon fr"><a href="#"><i class="material-icons">delete</i></a></div></li>
+                             <li><input type="checkbox" name="to-do-list" value="test">Unit testing<div class="delete-icon fr"><a href="#"><i class="material-icons">delete</i></a></div></li>
+                             <li><input type="checkbox" name="to-do-list" value="test">Unit testing<div class="delete-icon fr"><a href="#"><i class="material-icons">delete</i></a></div></li>
+                             <li><input type="checkbox" name="to-do-list" value="test">Unit testing<div class="delete-icon fr"><a href="#"><i class="material-icons">delete</i></a></div></li>
+                             <li><input type="checkbox" name="to-do-list" value="test">Unit testing<div class="delete-icon fr"><a href="#"><i class="material-icons">delete</i></a></div></li>
                             </ul>
                         </div>
                         <div class="feed list-box fl">
@@ -205,7 +208,7 @@
                                     <img src="img/client2.jpg">
                                 </div>
                                 <div class="feed-text fl"><a href="#"><span>John Doe add a new Photo</span></a>
-                                    <span> 2m ago</span></div>
+                                    <span><i class="material-icons">restore</i> 2m ago</span></div>
                                 
                             </div>
                             <div class="feed-content">
@@ -213,21 +216,21 @@
                                 <img src="img/client2.jpg">
                                 </div>
                                 <div class="feed-text fl"><a href="#"><span>John Doe add a new Photo</span></a>
-                                <span> 2m ago</span></div>
+                                <span><i class="material-icons">restore</i> 2m ago</span></div>
                             </div>
                             <div class="feed-content">
                                 <div class="feed-image fl">
                                 <img src="img/client2.jpg">
                                 </div>
                                 <div class="feed-text fl"><a href="#"><span>John Doe add a new Photo</span></a>
-                                <span> 2m ago</span></div>
+                                <span><i class="material-icons">restore</i> 2m ago</span></div>
                             </div>
                             <div class="feed-content">
                                 <div class="feed-image fl">
                                 <img src="img/client2.jpg">
                                 </div>
                                 <div class="feed-text fl"><a href="#"><span>John Doe add a new Photo</span></a>
-                                <span> 2m ago</span></div>
+                                <span><i class="material-icons">restore</i> 2m ago</span></div>
                             </div>
                         </div>
                     
